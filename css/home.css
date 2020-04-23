@@ -3,6 +3,15 @@ body{
 }
 .titulo-principal{
     background-color: brown;
+    
+
+   
+    ;
+
+}
+.titulo-principal ul{
+    display: flex;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
