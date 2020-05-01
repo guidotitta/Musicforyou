@@ -13,7 +13,7 @@ body{
     width: 1100px;
     margin: 0 auto;
     font-size: 1em;
-    grid-template-rows: 1fr ;
+   
 }
 
 
@@ -29,29 +29,32 @@ body{
 #genero{
 
     display: grid;
-    grid-template-columns:   1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    background-color: #FFF;
+    background-color:gray;
     padding: 10px;
-}
-
-.producto{
-
-    position: relative;
-
-}
-.mas{
     
+}
+.producto{
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+.mas{
+    background-color: chartreuse;
     text-align: center;
+    border-radius: 10px;
     
 }
 a{
     text-align: center;
     color: white;
-
+    text-decoration: none;
 }
 h3{
     text-align: center;
+    color: chartreuse;
 }
  
 
@@ -68,6 +71,7 @@ div.mas a{
     display: inline-block;
     padding: 5px 20px;
     background-color: black
+    
     
 }
 
@@ -98,7 +102,15 @@ header img{
         height: 3em;
     }
 
+.titulo{
+    text-align: center;
+    background-color: chartreuse;
+    padding: 10px;
+}
 
-
+.producto img{
+    width: 100%;
+    align-content: center;
+}
 
 
