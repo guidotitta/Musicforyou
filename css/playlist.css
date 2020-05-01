@@ -76,21 +76,24 @@ div.mas a{
 }
 
 
-header{
+header {
     background-color:black;
     padding: 2px;
     position: fixed;
     top: 2px;
     z-index: 10;
-    width: 1100px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    border-radius: 15px;
 }
-header ul{
+header ul {
     list-style-type: none;
     display: flex;
-    
+    justify-content: space-evenly;
 }
 
-header ul li a{
+header ul li a {
     display: inline-block;
     padding: 15px;
     font-size:1.6em;
@@ -98,8 +101,10 @@ header ul li a{
     text-decoration: none;
 }
 
-header img{
+header ul li img {
         height: 3em;
+        display: flex;
+        justify-content: flex-start;
     }
 
 .titulo{
