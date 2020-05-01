@@ -68,3 +68,30 @@ div.mas a{
     background-color: black
     
 }
+
+
+header{
+    background-color:black;
+    padding: 2px;
+    position: fixed;
+    top: 2px;
+    z-index: 10;
+    width: 1100px;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+header ul li a{
+    display: inline-block;
+    padding: 15px;
+    font-size:1.6em;
+    color: rgb(40, 231, 81);
+    text-decoration: none;
+}
+
+header img{
+        height: 3em;
+    }
