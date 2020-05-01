@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: grey;
+    background-image: url(../imagenes/fondohd.jpeg);
     font-size: 18px;
 }
 
@@ -31,7 +31,7 @@ body{
     display: grid;
     grid-template-columns:   1fr 1fr;
     gap: 20px;
-    background-color: #FFF;
+    background-color: grey;
     padding: 10px;
 }
 
@@ -108,10 +108,10 @@ header ul li img {
     display:inline-flex ;
     list-style-type: none;
     padding:6px;
-    color: black;
+    color: white;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 25px;
 }
 
