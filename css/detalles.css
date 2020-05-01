@@ -111,19 +111,20 @@ p{
     color: white
 }
 
-.piedepagina ul li{
-    display:inline-flex ;
-    list-style-type: none;
-    padding:6px;
-    color: white;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 37px;
-    margin-left: 25px;
+.header_track2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 30px;
+}
+
+.header_track2 p a {
+    background-color: plum;
+    color: black;
+    padding: 5px;
 }
 
 .piedepagina{
-    margin-top: 47px;
+    margin-top: 42px;
     display:flex;
     flex-direction: row;
     background-color: rgba(0, 0, 0, 0);
@@ -135,14 +136,98 @@ p{
     width: 10%;
 }
 
-.header_track2 {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 30px;
+.piedepagina ul li{
+    display:inline-flex ;
+    list-style-type: none;
+    padding:6px;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 37px;
+    margin-left: 25px;
 }
 
-.header_track2 p a {
-    background-color: plum;
-    color: black;
+/*CAMBIO A TABLET */
+
+@media (max-width: 768px) {
+.piedepagina {
+    position: relative;
+}
+
+.piedepagina ul li {
+    margin-bottom: 25px;
+}
+
+.header_track2 {
+    grid-template-columns: 1fr;
+}
+
+}
+
+/* CAMBIO A CELULAR */
+
+@media (max-width: 425px) {
+body{
+    font-size: 1.2em;
+}
+
+header {
+    position: relative;
+}
+
+header ul {
+    display: initial;
+}
+
+#contento {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+
+main{
+    position: relative;
+}
+
+h2 {
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+#track {
+    grid-template-columns: 1fr;
+    margin-left: 18px;
+}
+
+.header_track {
+    width: 200px; height: 200px;
+}
+
+.header_track2 {
+    grid-template-columns: 1fr;
+}
+
+.h3track {
+    width: 100%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.piedepagina {
+    position: relative;
+}
+
+.piedepagina img{
+    width: 20%;
+}
+
+.piedepagina ul li {
     padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    display: initial;
+}
+
 }
