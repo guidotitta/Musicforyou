@@ -17,8 +17,8 @@ body {
 }
 
 header {
-    background-color:white;
-    padding: 2px;
+    background-color:black;
+    padding: 10px;
     position: fixed;
     top: 2px;
     z-index: 10;
@@ -75,7 +75,7 @@ h2 {
 
 .track1 {
     margin-right: 20%;
-    color: rgb(40, 231, 81);
+    color: black;
 }
 
 h3 {
@@ -85,19 +85,30 @@ h3 {
     border-radius: 15px;
     text-align: center;
     padding: 5px;
-    color: black;
 }
 
 h4 {
-    padding: 20px;
+    margin-top: 9px;
+    padding: 3px;
     font-family: 'Baloo Tamma 2', cursive;
     font-size: 25px;
     border-style: solid;
+    border-radius: 15px;
     border-color: rgba(128, 146, 132, 0.788);
+    background-color: grey;
+    text-align: center;
 }
 
-h4 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+p a {
+    text-decoration: none;
+    color: white
+}
+
+p{
+    margin-top: 25px;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    color: white
 }
 
 .piedepagina ul li{
@@ -122,4 +133,16 @@ h4 p {
  
 .piedepagina img{
     width: 10%;
+}
+
+.header_track2 {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 30px;
+}
+
+.header_track2 p a {
+    background-color: plum;
+    color: black;
+    padding: 5px;
 }
