@@ -54,7 +54,7 @@ font-family: 'Shadows Into Light', cursive;
 }
 .imagen1{
 
-    height: 87%;
+    height: 80%;
 }
 header {
     background-color:black;
@@ -142,3 +142,18 @@ body {
     background-repeat: no-repeat;
 }
 /*********Celulares**********/
+@media(max-width:420px){
+    header {
+        background-color: black;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction:row-reverse;
+        border-radius: 15px;
+    }
+    .container{
+        grid-template-columns: 1fr;
+
+    }
+
+}
