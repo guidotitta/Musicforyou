@@ -131,18 +131,17 @@ header ul li img {
 
 
 
-@media(max-width:420px){
-    header{
-        background-color: black;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        
+@media(max-width:425px){
+    header {
+        position: relative;
+    }
+    
+    header ul {
+        display: initial;
     }
 
     #genero{
-
+        position: relative;
         display: grid;
         grid-template-columns:  1fr;
         gap: 20px;
@@ -154,3 +153,22 @@ header ul li img {
         margin-left: 25%;
         width: 110%;
     }
+
+    .piedepagina {
+        position: relative;
+        margin-top: 25px;
+    }
+
+    .piedepagina img {
+        position: relative;
+        width: 30%;
+    }
+
+    .piedepagina ul li {
+            padding: 0px;
+            margin-left: 20px;
+            margin-bottom: 0;
+            font-size: 15px;
+            display: initial;
+        }
+}

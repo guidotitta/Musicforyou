@@ -146,27 +146,51 @@ header ul li img {
 }
 
 
-@media(max-width:420px){
-    header{
-        background-color: black;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        
+@media(max-width:425px){
+    header {
+        position: relative;
+    }
+    
+    header ul {
+        display: initial;
     }
 
-    #genero{
+    .titulo {
+        width: 95%;
+    }
 
-        display: grid;
+    .principal {
+        position: relative;
+    }
+
+    #genero {
+        position: relative;
         grid-template-columns:  1fr;
-        gap: 20px;
         background-color: grey;
         padding: 30px;
         width: 70%;
+        margin-left: 15px;
     }
-    #contenedor{
-        margin-left: 25%;
-        width: 110%;
 
+    #contenedor{
+        width: 100%;
     }
+
+    .piedepagina {
+        position: relative;
+        margin-top: 25px;
+    }
+    
+    .piedepagina img{
+        width: 20%;
+    }
+    
+    .piedepagina ul li {
+        padding: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        display: initial;
+    }
+
+}

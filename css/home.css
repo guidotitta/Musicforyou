@@ -116,7 +116,7 @@ font-family: 'Orbitron', sans-serif;
     display:inline-flex ;
     list-style-type: none;
     padding:6px;
-    color: black;
+    color: white;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: 20px;
@@ -126,10 +126,9 @@ font-family: 'Orbitron', sans-serif;
 .piedepagina{
     display:flex;
     flex-direction: row;
-    background-color:grey
-    ;
+    background-color:rgba(0, 0, 0, 0);
     width: 100%;
-    position: absolute;
+    position: relative;
     padding: 3px;
 }
  
@@ -142,19 +141,34 @@ body {
     background-repeat: no-repeat;
 }
 /*********Celulares**********/
-@media(max-width:420px){
+@media(max-width:425px){
     header {
-        background-color: black;
-       padding: 10px;
-       width: 100%;
-       float:left;
-       display: flex;
-       flex-direction: row-reverse;
-      
+       position: relative;
     }
+    
+    header ul {
+        display: initial;
+    }
+
     .container{
         grid-template-columns: 1fr;
 
     }
 
+    .piedepagina {
+        position: relative;
+    }
+
+    .piedepagina img {
+        position: relative;
+        width: 20%;
+    }
+
+    .piedepagina ul li {
+            padding: 0px;
+            margin-left: 0px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            display: initial;
+        }
 }
