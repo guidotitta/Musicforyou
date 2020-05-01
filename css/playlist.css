@@ -118,4 +118,28 @@ header ul li img {
     align-content: center;
 }
 
+.piedepagina ul li{
+    display:inline-flex ;
+    list-style-type: none;
+    padding:6px;
+    color: black;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.piedepagina{
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    position: absolute;
+    padding: 3px;
+}
+ 
+.piedepagina img{
+    width: 10%;
+}
+
 
