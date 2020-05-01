@@ -2,3 +2,124 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    background-image: url(../imagenes/fondohd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contento {
+    display:grid;
+    grid-template-columns: 1fr;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+header {
+    background-color:white;
+    padding: 2px;
+    position: fixed;
+    top: 2px;
+    z-index: 10;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    border-radius: 15px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 15px;
+    font-size:1.6em;
+    color: rgb(40, 231, 81);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 15px;
+}
+
+header ul li img {
+        height: 3em;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(40, 231, 81);
+}
+
+#track {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header_track {
+    width: 75%; height: 75%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(40, 231, 81);
+}
+
+.track1 {
+    margin-right: 20%;
+    color: rgb(40, 231, 81);
+}
+
+h3 {
+    background-image: url(https://thumbs.dreamstime.com/z/textura-del-papel-del-grunge-fondo-con-el-espacio-para-el-texto-30982840.jpg);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+h4 {
+    padding: 20px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 25px;
+    border-style: solid;
+    border-color: rgba(128, 146, 132, 0.788);
+}
+
+h4 p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.piedepagina ul li{
+    display:inline-flex ;
+    list-style-type: none;
+    padding:6px;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 37px;
+    margin-left: 25px;
+}
+
+.piedepagina{
+    margin-top: 47px;
+    display:flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    position: absolute;
+}
+ 
+.piedepagina img{
+    width: 10%;
+}
