@@ -145,11 +145,12 @@ body {
 @media(max-width:420px){
     header {
         background-color: black;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction:row-reverse;
-        border-radius: 15px;
+       padding: 10px;
+       width: 100%;
+       float:left;
+       display: flex;
+       flex-direction: row-reverse;
+      
     }
     .container{
         grid-template-columns: 1fr;
