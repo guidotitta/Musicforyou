@@ -130,7 +130,27 @@ header ul li img {
 
 
 
- 
 
+@media(max-width:420px){
+    header{
+        background-color: black;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        
+    }
 
+    #genero{
 
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 20px;
+        background-color: grey;
+        padding: 30px;
+        width: 70%;
+    }
+    #contenedor{
+        margin-left: 25%;
+        width: 110%;
+    }
