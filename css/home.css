@@ -15,7 +15,8 @@
     text-align: center;
     margin: 20px;
 
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .container-artistas a{
     text-decoration-line:none ;
@@ -27,7 +28,7 @@
     border-radius: 15px;
     text-align: center;
     margin: 20px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Orbitron', sans-serif;
 }
 .container-album img{ 
     width: 50%;
@@ -42,8 +43,8 @@
     border-radius: 15px;
     text-align: center;
     margin: 20px;
-    font-family: 'Indie Flower', cursive;
-font-family: 'Shadows Into Light', cursive;
+    font-family: 'Orbitron', sans-serif;
+
 }
 .container-track img{
     width: 100%;
@@ -92,7 +93,7 @@ header ul li img {
       text-align: center;
       border-radius: 15px   ;
       padding: 20px;
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Orbitron', sans-serif;
     }
   .container1 h2{
       background-color: blue;
@@ -100,8 +101,7 @@ header ul li img {
       border-radius: 15px;
       padding: 20px;
       margin: 20px;
-      font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
   }
 .container2 h2{
     background-color: red;
@@ -109,7 +109,7 @@ font-family: 'Orbitron', sans-serif;
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
-    font-family: 'Open Sans Condensed', sans-serif;
+   
 font-family: 'Orbitron', sans-serif;
 }
 .piedepagina ul li{
