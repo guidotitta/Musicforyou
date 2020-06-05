@@ -67,6 +67,7 @@ header {
     display: grid;
     grid-template-rows: 1fr;
     border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;;
 }
 header ul {
     list-style-type: none;
