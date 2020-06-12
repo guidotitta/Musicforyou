@@ -1,22 +1,33 @@
+body{
+    background-image: url(../imagenes/fondohd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container0{
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 1em;
+}
 
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    margin-top: 100px;
-
 }
 
 .container-artistas img{
-    width: 50%;
+    width: 100%;
+    border-radius: 15px;
 }
 .container-artistas{
-    border-radius: 15px;
     background-color: springgreen;
     text-align: center;
     margin: 20px;
-
     font-family: 'Orbitron', sans-serif;
-
+    margin-top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(40, 231, 81);
 }
 .container-artistas a{
     text-decoration-line:none ;
@@ -24,44 +35,49 @@
     
 }
 .container-album{
-    background-color: aqua;
-    border-radius: 15px;
+    background-color: springgreen;
     text-align: center;
     margin: 20px;
     font-family: 'Orbitron', sans-serif;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(40, 231, 81);
 }
 .container-album img{ 
-    width: 50%;
-    
+    width: 100%;
+    border-radius: 15px;
 }
 .container-album a{
     text-decoration-line: none;
     color: black;
 }
 .container-track{
-    background-color: darkmagenta;
-    border-radius: 15px;
+    background-color: springgreen;
     text-align: center;
     margin: 20px;
     font-family: 'Orbitron', sans-serif;
-
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(40, 231, 81);
 }
 .container-track img{
     width: 100%;
+    border-radius: 15px;
 }
-.container-track a{
-    text-decoration-line: none;
-    color: black;
-}
-.imagen1{
 
-    height: 80%;
+.imagen1{
+    height: 83%;
 }
+
+.logo{
+    border-radius: 10px;
+}
+
 header {
     background-color:black;
     padding: 2px;
     position: fixed;
-    top: 2px;
+    top: 0px;
     z-index: 10;
     width: 100%;
     display: grid;
@@ -69,6 +85,7 @@ header {
     border-radius: 15px;
     font-family: 'Orbitron', sans-serif;;
 }
+
 header ul {
     list-style-type: none;
     display: flex;
@@ -87,32 +104,36 @@ header ul li img {
         height: 3em;
         display: flex;
         justify-content: flex-start;
-    }
+}
+
   h2{
       margin-top: 100px;
-      background-color: salmon;
+      margin-left: 20px;
+      margin-right: 20px;
+      background-color: rgb(160, 150, 150);
       text-align: center;
       border-radius: 15px   ;
       padding: 20px;
-      font-family: 'Orbitron', sans-serif;
-    }
+      font-family: 'Oswald', sans-serif;
+      font-size: 30px;
+}
+
   .container1 h2{
-      background-color: blue;
+    background-color: rgb(160, 150, 150);
       text-align: center;
       border-radius: 15px;
       padding: 20px;
       margin: 20px;
-    font-family: 'Orbitron', sans-serif;
   }
+
 .container2 h2{
-    background-color: red;
+    background-color: rgb(160, 150, 150);
     text-align: center;
     border-radius: 15px;
     margin: 20px;
     padding: 20px;
-   
-font-family: 'Orbitron', sans-serif;
 }
+
 .piedepagina ul li{
     display:inline-flex ;
     list-style-type: none;
@@ -136,11 +157,7 @@ font-family: 'Orbitron', sans-serif;
 .piedepagina img{
     width: 10%;
 }
-body {
-    background-image: url(../imagenes/fondohd.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 /*********Celulares**********/
 @media(max-width:425px){
     header {
