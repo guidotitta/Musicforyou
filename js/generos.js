@@ -10,7 +10,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/')
         contenedorgeneros.innerHTML+=`
         <div class="producto">
                     <h3> ${genero.name} </h3>
-                    <a href="detalleAlbum.html"><img src="${genero.picture_big}" alt=""></a> 
+                    <a href="detallegeneros.html?id=${genero.id}"><img src="${genero.picture_big}" alt=""></a> 
                 </div>
         
         
