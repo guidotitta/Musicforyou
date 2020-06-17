@@ -15,6 +15,16 @@ body{
     grid-template-columns: 1fr 1fr 1fr ;
 }
 
+.container-alb{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.container-cancion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .container-artistas img{
     width: 100%;
     border-radius: 15px;
@@ -32,7 +42,7 @@ body{
 .container-artistas a{
     text-decoration-line:none ;
     color: black;
-    
+    font-weight: bolder;
 }
 .container-album{
     background-color: springgreen;
@@ -50,6 +60,7 @@ body{
 .container-album a{
     text-decoration-line: none;
     color: black;
+    font-weight: bolder;
 }
 .container-track{
     background-color: springgreen;
@@ -65,12 +76,14 @@ body{
     border-radius: 15px;
 }
 
-.imagen1{
-    height: 83%;
+.container-track a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bolder;
 }
 
-.logo{
-    border-radius: 10px;
+.imagen1{
+    height: 83%;
 }
 
 header {
@@ -80,16 +93,14 @@ header {
     top: 0px;
     z-index: 10;
     width: 100%;
-    display: grid;
     grid-template-rows: 1fr;
     border-radius: 15px;
-    font-family: 'Orbitron', sans-serif;;
+    font-family: 'Orbitron', sans-serif;
 }
 
 header ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
 }
 
 header ul li a {
@@ -101,21 +112,33 @@ header ul li a {
 }
 
 header ul li img {
-        height: 3em;
+        height: 4em;
         display: flex;
-        justify-content: flex-start;
+        border-radius: 10px;
 }
 
-  h2{
-      margin-top: 100px;
-      margin-left: 20px;
-      margin-right: 20px;
-      background-color: rgb(160, 150, 150);
-      text-align: center;
-      border-radius: 15px   ;
-      padding: 20px;
-      font-family: 'Oswald', sans-serif;
-      font-size: 30px;
+.barra1 {
+    margin-left: 245px;
+}
+
+.barra2 {
+    margin-left: 25px;
+}
+
+.barra3 {
+    margin-left: 25px;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(160, 150, 150);
+    text-align: center;
+    border-radius: 15px   ;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
   .container1 h2{
@@ -135,7 +158,7 @@ header ul li img {
 }
 
 .piedepagina ul li{
-    display:inline-flex ;
+    display:inline-flex;
     list-style-type: none;
     padding:6px;
     color: white;
@@ -148,7 +171,7 @@ header ul li img {
 .piedepagina{
     display:flex;
     flex-direction: row;
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(128, 255, 0, 0);
     width: 100%;
     position: relative;
     padding: 3px;

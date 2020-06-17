@@ -50,10 +50,6 @@ div.mas a{
     background-color: black
 }
 
-.logo{
-    border-radius: 10px;
-}
-
 header {
     background-color:black;
     padding: 2px;
@@ -61,15 +57,14 @@ header {
     top: 0px;
     z-index: 10;
     width: 100%;
-    display: grid;
     grid-template-rows: 1fr;
     border-radius: 15px;
     font-family: 'Orbitron', sans-serif;
 }
+
 header ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
 }
 
 header ul li a {
@@ -78,14 +73,25 @@ header ul li a {
     font-size:1.6em;
     color: rgb(40, 231, 81);
     text-decoration: none;
-    
 }
 
 header ul li img {
-        height: 3em;
+        height: 4em;
         display: flex;
-        justify-content: flex-start;
-    }
+        border-radius: 10px;
+}
+
+.barra1 {
+    margin-left: 245px;
+}
+
+.barra2 {
+    margin-left: 25px;
+}
+
+.barra3 {
+    margin-left: 25px;
+}
 
 .titulo{
     margin-top: 90px;
