@@ -182,19 +182,38 @@ h2 {
 }
 
 /*********Celulares**********/
-@media(max-width:425px){
+@media(max-width:320px){
     header {
        position: relative;
     }
     
     header ul {
         display: initial;
+       
+    }
+    .container0{
+        width: 100%;
     }
 
+    .container-cancion{
+        grid-template-columns: 1fr;
+
+    }
+    .container-alb{
+        grid-template-columns: 1fr;
+
+    }
     .container{
         grid-template-columns: 1fr;
 
     }
+
+    .barra1{
+        margin-left: 25PX;
+    }
+    
+    
+
 
     .piedepagina {
         position: relative;
