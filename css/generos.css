@@ -22,7 +22,7 @@ body{
 
     display: grid;
     grid-template-columns:   1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     background-color: grey;
     padding: 10px;
 }
@@ -30,6 +30,7 @@ body{
 .producto{
 
     position: relative;
+    margin: 20px;
 
 }
 .mas{
@@ -44,16 +45,20 @@ a{
 }
 h3{
     text-align: center;
+    font-family: 'Orbitron', sans-serif;
 }
  
 
 img.genero{
     width: 100%;
+    border-radius: 15px;
     
 }
 
 .producto img{
     width: 100%;
+    border-radius: 15px;
+    
 }
 
 div.mas a{
