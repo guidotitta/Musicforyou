@@ -1,6 +1,6 @@
 let queryString = location.search
 let queryStringObj = new URLSearchParams(queryString)
-let resultadoDeBusqueda = queryStringObj.get('buscar')
+let resultadoDeBusqueda = queryStringObj.get('busqueda')
 
 fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/artist?q=' + resultadoDeBusqueda)
 .then(function(response){

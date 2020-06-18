@@ -181,6 +181,11 @@ h2 {
     width: 10%;
 }
 
+.slides{
+    height: 80%;
+    margin-right: 80px;
+}
+
 /*********Celulares**********/
 @media(max-width:320px){
     header {
