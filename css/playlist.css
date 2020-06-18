@@ -130,7 +130,7 @@ header ul li img {
 }
 
 
-@media(max-width:425px){
+@media(max-width:320px){
     header {
         position: relative;
     }
@@ -140,11 +140,15 @@ header ul li img {
     }
 
     .titulo {
-        width: 95%;
+        width: 100%;
+        margin-right: 100px;
     }
 
     .principal {
         position: relative;
+    }
+    .barra1{
+        margin-left: 25px;
     }
 
     #genero {
