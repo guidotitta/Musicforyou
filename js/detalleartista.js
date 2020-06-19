@@ -20,6 +20,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/'+artis
     <div><img class='header_track' src="${datos.picture_xl}" alt="duki"></div>
     <div class='track1'>
         <h3>${datos.name}</h3>
+        <p>${datos.nb_fan} Fans</p>
         <h4>TOP 5 HITS</h4>                       
     </div>
 </div>
@@ -39,10 +40,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/'+artis
 for (const top of tracks) {
     contenedortop.innerHTML+=`
        
-<p><a href="detalleTrack.html">. ${top.title}</a></p>
-
-
-
+<p><a href="detalleTrack.html?id=${top.id}">. ${top.title}</a></p>
 `
     
 }

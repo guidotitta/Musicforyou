@@ -1,35 +1,36 @@
-body{
+body {
     background-image: url(../imagenes/fondohd.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.container0{
+.container0 {
     width: 1100px;
     margin: 0 auto;
     font-size: 1em;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-}
-
-.container-alb{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-}
-
-.container-cancion{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.container-artistas img{
+.container-alb {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-cancion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-artistas img {
     width: 100%;
     border-radius: 15px;
 }
-.container-artistas{
+
+.container-artistas {
     background-color: springgreen;
     text-align: center;
     margin: 20px;
@@ -39,12 +40,14 @@ body{
     border-style: solid;
     border-color: rgb(40, 231, 81);
 }
-.container-artistas a{
-    text-decoration-line:none ;
+
+.container-artistas a {
+    text-decoration-line: none;
     color: black;
     font-weight: bolder;
 }
-.container-album{
+
+.container-album {
     background-color: springgreen;
     text-align: center;
     margin: 20px;
@@ -53,16 +56,19 @@ body{
     border-style: solid;
     border-color: rgb(40, 231, 81);
 }
-.container-album img{ 
+
+.container-album img {
     width: 100%;
     border-radius: 15px;
 }
-.container-album a{
+
+.container-album a {
     text-decoration-line: none;
     color: black;
     font-weight: bolder;
 }
-.container-track{
+
+.container-track {
     background-color: springgreen;
     text-align: center;
     margin: 20px;
@@ -71,23 +77,24 @@ body{
     border-style: solid;
     border-color: rgb(40, 231, 81);
 }
-.container-track img{
+
+.container-track img {
     width: 100%;
     border-radius: 15px;
 }
 
-.container-track a{
+.container-track a {
     text-decoration-line: none;
     color: black;
     font-weight: bolder;
 }
 
-.imagen1{
+.imagen1 {
     height: 83%;
 }
 
 header {
-    background-color:black;
+    background-color: black;
     padding: 2px;
     position: fixed;
     top: 0px;
@@ -101,20 +108,21 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-evenly;
 }
 
 header ul li a {
     display: inline-block;
     padding: 15px;
-    font-size:1.6em;
+    font-size: 1.6em;
     color: rgb(40, 231, 81);
     text-decoration: none;
 }
 
 header ul li img {
-        height: 4em;
-        display: flex;
-        border-radius: 10px;
+    height: 4em;
+    display: flex;
+    border-radius: 10px;
 }
 
 .barra1 {
@@ -129,27 +137,32 @@ header ul li img {
     margin-left: 25px;
 }
 
+.barra4 {
+    margin-top: 20px;
+
+}
+
 h2 {
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: rgb(160, 150, 150);
     text-align: center;
-    border-radius: 15px   ;
+    border-radius: 15px;
     padding: 20px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
 }
 
-  .container1 h2{
+.container1 h2 {
     background-color: rgb(160, 150, 150);
-      text-align: center;
-      border-radius: 15px;
-      padding: 20px;
-      margin: 20px;
-  }
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
 
-.container2 h2{
+.container2 h2 {
     background-color: rgb(160, 150, 150);
     text-align: center;
     border-radius: 15px;
@@ -157,10 +170,10 @@ h2 {
     padding: 20px;
 }
 
-.piedepagina ul li{
-    display:inline-flex;
+.piedepagina ul li {
+    display: inline-flex;
     list-style-type: none;
-    padding:6px;
+    padding: 6px;
     color: white;
     flex-direction: row;
     justify-content: flex-end;
@@ -168,51 +181,59 @@ h2 {
     margin-left: 25px;
 }
 
-.piedepagina{
-    display:flex;
+.piedepagina {
+    display: flex;
     flex-direction: row;
-    background-color:rgba(128, 255, 0, 0);
+    background-color: rgba(128, 255, 0, 0);
     width: 100%;
     position: relative;
     padding: 3px;
 }
- 
-.piedepagina img{
+
+.piedepagina img {
     width: 10%;
 }
 
+.slides {
+    height: 80%;
+    margin-right: 80px;
+}
+
 /*********Celulares**********/
-@media(max-width:320px){
+@media(max-width:320px) {
     header {
-       position: relative;
+        position: relative;
     }
-    
+
     header ul {
         display: initial;
-       
+
     }
-    .container0{
+
+    .container0 {
         width: 100%;
     }
 
-    .container-cancion{
-        grid-template-columns: 1fr;
-
-    }
-    .container-alb{
-        grid-template-columns: 1fr;
-
-    }
-    .container{
+    .container-cancion {
         grid-template-columns: 1fr;
 
     }
 
-    .barra1{
+    .container-alb {
+        grid-template-columns: 1fr;
+
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .barra1 {
         margin-left: 25PX;
     }
-    
-    
+
+
 
 
     .piedepagina {
@@ -225,10 +246,10 @@ h2 {
     }
 
     .piedepagina ul li {
-            padding: 0px;
-            margin-left: 0px;
-            margin-bottom: 10px;
-            font-size: 15px;
-            display: initial;
-        }
+        padding: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        display: initial;
+    }
 }
