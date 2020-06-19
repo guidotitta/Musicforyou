@@ -26,7 +26,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/genre/'+genero
 .then(function(datos){
     console.log(datos);
     let artistas= datos.data
-    let contenedorartistas= document.querySelector('.container')
+    let contenedorartistas= document.querySelector('.container-generos')
     for (let i = 0; i <10 ; i++) {
         const artista =  artistas[i];
         contenedorartistas.innerHTML+=`<div class="container-artistas">

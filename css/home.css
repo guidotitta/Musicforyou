@@ -21,6 +21,14 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.container-generos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
 .container-alb {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -125,6 +133,11 @@ header ul li a {
     text-decoration: none;
 }
 
+header a:hover{
+    color:  rgb(40, 231, 81);
+    text-decoration-line: none;
+}
+
 header ul li img {
     height: 4em;
     display: flex;
@@ -157,6 +170,14 @@ h2 {
     padding: 20px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
+}
+
+.titulogenero {
+    font-family: 'Oswald', sans-serif;
+    width: 500px;
+    margin: auto auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .container1 h2 {
