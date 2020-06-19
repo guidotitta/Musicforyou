@@ -7,6 +7,8 @@ body {
     margin: 0 auto;
     font-size: 1em;
     margin-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
 }
 
 .container0-search {
@@ -55,7 +57,13 @@ body {
     border-color: rgb(40, 231, 81);
 }
 
-.container-artistas a {
+.container-artistas a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.container-artistas a:hover {
     text-decoration-line: none;
     color: black;
     font-weight: bolder;

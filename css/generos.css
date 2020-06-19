@@ -126,9 +126,21 @@ header ul li img {
 .piedepagina img{
     width: 10%;
 }
+
+.barra1 {
+    margin-left: 245px;
+}
+
+.barra2 {
+    margin-left: 25px;
+}
+
+.barra3 {
+    margin-left: 25px;
+}
+
 .barra4 {
     margin-top: 20px;
-
 }
 
 
@@ -152,8 +164,7 @@ header ul li img {
         padding: 30px;
         width: 70%;
     }
-    #contenedor{
-        
+    #contenedor{  
         width: 110%;
     }
 
