@@ -101,6 +101,7 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
+    justify-content:space-evenly ;
 }
 
 header ul li a {
@@ -127,6 +128,10 @@ header ul li img {
 
 .barra3 {
     margin-left: 25px;
+}
+.barra4 {
+    margin-top: 20px;
+
 }
 
 h2 {
