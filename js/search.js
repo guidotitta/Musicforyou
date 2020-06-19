@@ -34,7 +34,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search/album?q
         container.innerHTML += `
 
        <div class="container-album">
-           <a href="detalleAlbum.html"><img src="${artista.cover_big}" alt=""></a>     
+           <a href="detalleAlbum.html?id=${artista.id}"><img src="${artista.cover_big}" alt=""></a>     
            <h3>${artista.title}</h3>
           </div>
          ` 
@@ -53,7 +53,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=' + r
         
         container.innerHTML += `
         <div class="container-track">
-        <a href="detalleTrack.html"><img src="${artista.album_big}" alt=""></a>     
+        <a href="detalleTrack.html?id=${artista.id}"><img src="${artista.album.cover_big}" alt=""></a>     
          <h3>${artista.title}</h3>
         </div>
        
