@@ -26,6 +26,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/' + trac
         <p><a href="detalleAlbum.html">Album: ${datos.album.title}</a></p>
         <p><a href="listadodegeneros.html">Rank: ${datos.rank}</a></p>
         <p>Fecha de Lanzamiento: ${datos.release_date}</p>
+        <p><audio class="audios" src="${datos.preview}" controls></audio></p>
 </div>
 </div>
 </div>`

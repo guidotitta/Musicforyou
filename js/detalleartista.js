@@ -41,6 +41,9 @@ for (const top of tracks) {
     contenedortop.innerHTML+=`
        
 <p><a href="detalleTrack.html?id=${top.id}">. ${top.title}</a></p>
+
+
+
 `
     
 }

@@ -108,7 +108,7 @@ header {
 header ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly ;
 }
 
 header ul li a {
@@ -135,6 +135,10 @@ header ul li img {
 
 .barra3 {
     margin-left: 25px;
+}
+.barra4 {
+    margin-top: 20px;
+
 }
 
 .barra4 {
@@ -194,7 +198,7 @@ h2 {
     width: 10%;
 }
 
-.slides {
+.slides{
     height: 80%;
     margin-right: 80px;
 }
