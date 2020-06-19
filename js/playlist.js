@@ -8,7 +8,7 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0/playli
     for (const playlist of datos.data) {
         conteiner.innerHTML += `<div class="producto">
         <a href="detalleTrack.html"><img src="${playlist.picture_big}" alt=""></a> 
-        <h3>Duki - Rockstar</h3>
+        <h3>${playlist.title}</h3>
     </div>`
         
     }
