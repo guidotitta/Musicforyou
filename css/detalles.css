@@ -231,8 +231,10 @@ p {
     font-size: 15px;
 }
 
-.piedepagina {
-    position: relative;
+.piedepagina{
+    display:flex;
+    position: absolute;
+    padding: 3px;
 }
 
 .piedepagina img{
